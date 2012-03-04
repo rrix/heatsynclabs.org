@@ -1509,3 +1509,11 @@ hr {
 .footer {
   clear: both;
 }
+
+.caption {
+  width: 500px;
+  border: 1px solid #DDD;
+  text-align: center;
+  background-color: #F3F3F3;
+  padding-top: 4px;
+}

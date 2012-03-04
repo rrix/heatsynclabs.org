@@ -1,0 +1,16 @@
+{% comment %}<!--
+Usage:
+Set caption_photo to the URL of the image you want to include
+Set caption_text to the text you want to display under it
+-->{% endcomment %}
+{% if caption_photo != null %}
+<div class="caption">
+<img src='{{ caption_photo }}' width="500px">
+{% if caption_text != null %}
+<div class="caption_text">
+{{ caption_text }}
+</div>
+{% endif %}
+</div>
+{% endif %}
+
