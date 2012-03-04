@@ -46,10 +46,16 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
-  font-size: 1em;
-  line-height: 1.4;
-  -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62);
+    background-color: #2C2C29;
+    color: #2C2C29;
+    font-family: Tahoma;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.4;
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62);
 }
 body,
 button,
@@ -429,10 +435,11 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
-  line-height: 52px;
-  margin-top: 52px;
-  margin-bottom: 26px;
+  font-family: Helvetica, Georgia;
+  font-size: 24px;
+  letter-spacing: -1px;
+  margin: 10px 0px 3px;
+  border-bottom: 1px solid #DCDCDB;
 }
 h3,
 .h3 {
@@ -1481,4 +1488,24 @@ hr {
 .right {
   *display: inline;
   float: right;
+}
+
+
+#wrapper { width: 811px; margin: 0 auto; }
+#top { background:url('http://www.heatsynclabs.org/wp-content/themes/lightword/images/header-image.png') no-repeat; height:116px; margin: 0 0 0 5px; }
+#top span { display: none; }
+#content { background-color: #fff; padding: 1em; font-size: 1.2em; }
+#chatbox { position: absolute; top: 0px; right: 0px; }
+
+.caption {
+  background-color: #F3F3F3;
+  border: 1px solid #DDD;
+  padding: 4px;
+  margin: 0 0 0 30px;
+  width: 320px;
+  display: inline-block;
+}
+
+.footer {
+  clear: both;
 }
