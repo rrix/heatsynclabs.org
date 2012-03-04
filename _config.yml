@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
@@ -9,12 +9,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : HeatSync Labs
-tagline: Hacking Arizona Since 2009
-author :
-  name : Ryan Rix
-  email : info@heatsynclabs.org
-  github : heatsynclabs
+title     : HeatSync Labs
+tagline   : Hacking Arizona Since 2009
+author    : 
+  name    : Ryan Rix
+  email   : info@heatsynclabs.org
+  github  : heatsynclabs
   twitter : heatsynclabs
 
 # The production_url is only used when full-domain names are needed
@@ -69,17 +69,17 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change theme here if needed.
   #
-  archive_path: /archive.html
+  archive_path    : /archive.html
   categories_path : /categories.html
-  tags_path : /tags.html
+  tags_path       : /tags.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
+  comments : 
     provider : disqus
-    disqus :
+    disqus   : 
       short_name : heatsynclabs
    
   # Settings for analytics helper
@@ -87,8 +87,8 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
-    google : 
+    provider : google
+    google   : 
         tracking_id : 'UA-123-12'
 
   # Settings for sharing helper. 
