@@ -1,0 +1,14 @@
+---
+date: '2009-08-21 17:30:31'
+layout: post
+slug: '96'
+status: publish
+title: Location Data
+wordpress_id: '96'
+categories:
+- Event
+---
+
+I realized last night that we really should get an idea of where everyone is located before we start assuming that Tempe and the surrounding area is the best area for our hackerspace to end up. To assist in this I'm writing a small app that will parse a set of addresses into a polygon showing our coverage area on Google maps.  Locations will be randomized by 1/4 mile before becoming boundary points.  If you have an interest in attending the space and you live in the Phoenix valley, you can help us out by completing [this survey](https://spreadsheets.google.com/viewform?formkey=dEN2Z3V3cG83NmZRb2FvQkh5OUJDdVE6MA..).
+
+Thanks!

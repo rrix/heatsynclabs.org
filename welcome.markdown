@@ -1,0 +1,20 @@
+---
+date: '2010-05-02 18:52:08'
+layout: page
+slug: welcome
+status: publish
+title: Welcome!
+wordpress_id: '634'
+---
+
+Thank for you choosing to become a HeatSync Labs member! As we foster this community of learning, science, and the arts every member is important.
+
+If you signed up for membership via PayPal -- your recurring monthly dues will be subtracted from your account the same date you enrolled.
+
+If you chose Cash/Check -- you can either mail your dues (HeatSync Labs PO Box 24143 Tempe, AZ 85284) or deliver it to Jose Diaz (jose @ heatsynclabs.org) at HeatSync. Please note recurring payments are -highly- encouraged-- remember we do not have staff. If cash/check are important please consider prepaying for 3,6 or 12 months up front.
+
+To claim any member benefits such as storage, grab a board member during your next stop into HeatSync. Please note 24/7 key access may require community approval and as such may not be immediately available.
+
+Thank you for supporting our outreach efforts and helping us build financial stability in our new bigger and better 24/7 location.
+
+Board of Directors

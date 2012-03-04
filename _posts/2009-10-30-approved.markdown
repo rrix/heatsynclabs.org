@@ -1,0 +1,14 @@
+---
+date: '2009-10-30 06:52:36'
+layout: post
+slug: approved
+status: publish
+title: APPROVED!!
+wordpress_id: '202'
+categories:
+- News
+---
+
+We got our approval as a non-profit organization in the State of Arizona. WOO!!!!
+We're just waiting for the packet to come in the mail with all our information about the organization.
+:D!

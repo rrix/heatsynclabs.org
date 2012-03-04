@@ -1,0 +1,38 @@
+---
+date: '2010-12-23 11:00:48'
+layout: post
+slug: we-did-it
+status: publish
+title: We did it!
+wordpress_id: '1092'
+categories:
+- Fundraiser
+- News
+---
+
+[caption id="attachment_1095" align="aligncenter" width="500" caption="Photo by sneakymoose. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License."][![Great success!](http://www.heatsynclabs.org/wp-content/uploads/2010/12/2339421954_0d9cd35732.jpg)](http://www.flickr.com/photos/sneakymoose/2339421954/in/photostream/)[/caption]
+
+After 30 long days since the long of our Kickstarter laser cutter fundraiser, we have not only met our $7,500 goal, but met it early and surpassed it by hundreds of dollars, bringing the total to [OVER 9000](http://knowyourmeme.com/memes/its-over-9000#)!  Thanks to everyone that has put in so much effort into making this possible.  This was a first, experimental attempt at doing a type of fundraiser that has a history of failure.  Our group has pulled together extraordinarily to take our space to the next level, and we even had a little extra help from our fellow hackerspaces across the country in a show of solidarity.  We have faced no shortage of challenges all along the way, but have defiantly moved against joining the graveyard of fundraisers Kickstarter has become a home for.
+
+We are now taking the first steps towards joining the G8 of hackerspaces with laser weapons cutters, and our resourcefulness will no doubt be matched by our creativity in using our new tool to its maximum potential.  To prevent a delay in the delivery of Kickstarter rewards, we'll be outsourcing some of our prize production to some local resources to bring laser-etched joy and cheer to our benefactors as soon as possible.  In the meantime, its time to go laser shopping!
+
+Special thanks and _big ups_ to:
+
+
+
+	
+  * The Kickstarter production crew and cast for getting the fundraiser off the ground and into everyone's immediate interest.
+
+	
+  * Everyone who Tweeted, Facebook'd, Dugg, Upboated, Tumbled, and Emailed our cause to the forefront of social media.
+
+	
+  * Everyone who donated generously and convinced others to donate.
+
+	
+  * [Phoenix Laser Engraving](www.phoenixlaserengraving.com) for generously providing their services in creating the prototype hackerspace reward plaque.
+
+	
+  * The people that still have work to do in creating and distributing Kickstarter prizes.
+
+

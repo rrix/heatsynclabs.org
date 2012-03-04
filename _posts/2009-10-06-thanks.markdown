@@ -1,0 +1,16 @@
+---
+date: '2009-10-06 18:58:51'
+layout: post
+slug: thanks
+status: publish
+title: Thanks!
+wordpress_id: '187'
+categories:
+- Event
+---
+
+Thanks to everyone who came out and made Poker Night amazing!
+Hope everyone enjoyed themselves!
+Thanks to Sierra, Shannon, Jeremy, Rick, Dave, Chris and John for set up and for everyone who stayed after to clean up!
+
+We'll let everyone know more about whats going on in the works very soon!
