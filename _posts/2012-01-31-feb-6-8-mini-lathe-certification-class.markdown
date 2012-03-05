@@ -9,7 +9,11 @@ categories:
 - Classes
 ---
 
-[caption id="attachment_2560" align="aligncenter" width="500" caption="The HeatSync Labs Mini Lathe, Photo by Ryan Rix"][![](http://www.heatsynclabs.org/wp-content/uploads/2012/01/6794034339_b7d3640867.jpg)](http://www.flickr.com/photos/hslphotosync/6794034339/in/photostream)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "The HeatSync Labs Mini Lathe, Photo by Ryan Rix" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2012/01/6794034339_b7d3640867.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/hslphotosync/6794034339/in/photostream" %}
+{% include heatsynclabs/caption %}
 
 HeatSync has another class coming up!
 

@@ -11,7 +11,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1103" align="aligncenter" width="500" caption="Photo by Matt Burtch.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License."][![Needs moar wires!](http://www.heatsynclabs.org/wp-content/uploads/2011/01/3896031435_7b2a57e40c.jpg)](http://www.flickr.com/photos/cortexbomb/3896031435/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Matt Burtch.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/01/3896031435_7b2a57e40c.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/cortexbomb/3896031435/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed) 7:00 pm|az @ Gangplank – Rear Meeting Room**
 

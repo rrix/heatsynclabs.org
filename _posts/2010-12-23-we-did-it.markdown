@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1095" align="aligncenter" width="500" caption="Photo by sneakymoose. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License."][![Great success!](http://www.heatsynclabs.org/wp-content/uploads/2010/12/2339421954_0d9cd35732.jpg)](http://www.flickr.com/photos/sneakymoose/2339421954/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by sneakymoose. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/12/2339421954_0d9cd35732.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/sneakymoose/2339421954/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 After 30 long days since the long of our Kickstarter laser cutter fundraiser, we have not only met our $7,500 goal, but met it early and surpassed it by hundreds of dollars, bringing the total to [OVER 9000](http://knowyourmeme.com/memes/its-over-9000#)!  Thanks to everyone that has put in so much effort into making this possible.  This was a first, experimental attempt at doing a type of fundraiser that has a history of failure.  Our group has pulled together extraordinarily to take our space to the next level, and we even had a little extra help from our fellow hackerspaces across the country in a show of solidarity.  We have faced no shortage of challenges all along the way, but have defiantly moved against joining the graveyard of fundraisers Kickstarter has become a home for.
 

@@ -11,7 +11,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_771" align="aligncenter" width="518" caption="Photo by Mark Surman.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![Water balloons are totally brutal](http://www.heatsynclabs.org/wp-content/uploads/2010/07/3625880278_cab3bf6642_z.jpg)](http://www.flickr.com/photos/marksurman/3625880278/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Mark Surman.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/07/3625880278_cab3bf6642_z.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/marksurman/3625880278/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Water Balloon DEATHMATCH (Sat, July 24th) 5:00 pm|az @ Folley Park**
 

@@ -11,7 +11,10 @@ categories:
 - News
 ---
 
-[caption id="attachment_997" align="aligncenter" width="451" caption="Drawing by some dude too dead to sue anyone.  Distributed under the public domain."]![The king of mustaches and mad science](http://www.heatsynclabs.org/wp-content/uploads/2010/10/MFTESLA.png)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Drawing by some dude too dead to sue anyone.  Distributed under the public domain." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/10/MFTESLA.png" %}
+{% include heatsynclabs/caption %}
 
 **Mustaches, Music, and Mad Science! **(Sat, Oct 23rd) 8:00 pm|az @ Gangplank****
 

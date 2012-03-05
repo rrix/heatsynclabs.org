@@ -11,7 +11,10 @@ categories:
 
 
 
-[caption id="attachment_2188" align="aligncenter" width="500" caption="It's meeting time! Photo licensed under CC-BY 2.0 by Voka Kamer van Koophandel Limburg"]![](http://www.heatsynclabs.org/wp-content/uploads/2011/10/4522283313_75c65fbcd4.jpg)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "It's meeting time! Photo licensed under CC-BY 2.0 by Voka Kamer van Koophandel Limburg" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/10/4522283313_75c65fbcd4.jpg" %}
+{% include heatsynclabs/caption %}
 
 This Thursday is our quarterly board meeting. The board will be discussing and voting on a number of topics and proposals outlined on this [schedule](http://groups.google.com/group/heatsynclabs/browse_thread/thread/59b8a7bf906058d6). All members in good standing are encouraged to attend the meeting and voice opinions on the topics that matter. We will be starting promptly at 7:00 PM in the common area downstairs.
 

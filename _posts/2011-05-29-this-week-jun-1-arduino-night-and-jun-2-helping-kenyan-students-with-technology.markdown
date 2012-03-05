@@ -11,7 +11,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1743" align="aligncenter" width="425" caption="Photo by The Advocacy Project.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license."][![Steampunk reading light](http://www.heatsynclabs.org/wp-content/uploads/2011/05/3769063870_fb2591a458_o.jpg)](http://www.flickr.com/photos/advocacy_project/3769063870/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by The Advocacy Project.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/05/3769063870_fb2591a458_o.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/advocacy_project/3769063870/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed Jun 1) 7:00 pm|az @ Gangplank – Rear Meeting Room**
 

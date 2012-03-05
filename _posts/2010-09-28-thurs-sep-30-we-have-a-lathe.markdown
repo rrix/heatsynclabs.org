@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_969" align="aligncenter" width="500" caption="Photo by Matt Mets.  All rights reserved and enforced with rabid Steelers fans."][![We're almost as cool at HackPGH now!](http://www.heatsynclabs.org/wp-content/uploads/2010/09/4287597518_7045e7e886.jpg)](http://www.flickr.com/photos/cibomahto/4287597518/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Matt Mets.  All rights reserved and enforced with rabid Steelers fans." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/09/4287597518_7045e7e886.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/cibomahto/4287597518/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank -** HeatSync Labs HQ****
 

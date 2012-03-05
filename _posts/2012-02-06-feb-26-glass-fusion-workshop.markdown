@@ -9,7 +9,10 @@ categories:
 - Classes
 ---
 
-[caption id="attachment_2558" align="aligncenter" width="500" caption="Fused Glass Photos,  photo by John Groseclose, All Rights Reserved"]![](http://www.heatsynclabs.org/wp-content/uploads/2012/02/5350853560_442a825c72_b.jpg)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Fused Glass Photos,  photo by John Groseclose, All Rights Reserved" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2012/02/5350853560_442a825c72_b.jpg" %}
+{% include heatsynclabs/caption %}
 
 HeatSync Labs has another class coming up! This time around, Holly Schineller will be giving an introduction to warm glass fusion.
 

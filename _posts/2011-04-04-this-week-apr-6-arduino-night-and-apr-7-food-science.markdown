@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1628" align="aligncenter" width="500" caption="Photo by Robyn Lee.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0) license."][![Macaroni and Science](http://www.heatsynclabs.org/wp-content/uploads/2011/04/97360782_3bd5f79fef.jpg)](http://www.flickr.com/photos/roboppy/97360782/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Robyn Lee.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/04/97360782_3bd5f79fef.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/roboppy/97360782/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed Apr 6) 7:00 pm|az @ Gangplank – Rear Meeting Room**
 

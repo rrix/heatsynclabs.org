@@ -9,7 +9,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1416" align="aligncenter" width="500" caption="Photo by John Kittelsrud.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0) license."][![Exploring strange new worlds...](http://www.heatsynclabs.org/wp-content/uploads/2011/02/5152598762_9c99dc5697.jpg)](http://www.flickr.com/photos/teamdroid/5152598762/in/photostream/lightbox/#/photos/teamdroid/5152598762/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by John Kittelsrud.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/02/5152598762_9c99dc5697.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/teamdroid/5152598762/in/photostream/lightbox/#/photos/teamdroid/5152598762/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 The Location Search Committee has kicked its efforts up to 88 miles per hour this month in the search for a new space to call our own.  We have met with city officials, community organizers, and property owners who share a vision with us.  All across the valley, from Mesa Drive to Grand Ave, we have received an incredible amount of support from people who love what we do.
 

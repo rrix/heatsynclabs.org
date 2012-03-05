@@ -11,7 +11,11 @@ categories:
 - Traveling
 ---
 
-[caption id="attachment_1676" align="aligncenter" width="500" caption="Photo by Brian Bolton.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license."][![Totally metal](http://www.heatsynclabs.org/wp-content/uploads/2011/04/187066525_c0acda5408.jpg)](http://www.flickr.com/photos/sovanyiop4/187066525/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Brian Bolton.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/04/187066525_c0acda5408.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/sovanyiop4/187066525/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed May 4) 7:00 pm|az @ Gangplank – Rear Meeting Room**
 

@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1828" align="aligncenter" width="500" caption="Photo by HeatSync Labs.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license."][![Moving Day](http://www.heatsynclabs.org/wp-content/uploads/2011/06/austin_time_shelves.jpg)](http://www.flickr.com/photos/60827818@N07/5798200932/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by HeatSync Labs.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/06/austin_time_shelves.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/60827818@N07/5798200932/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Moving Day! (Saturday, June 25th, 10am****) @ HeatSync Labs at Gangplank**
 

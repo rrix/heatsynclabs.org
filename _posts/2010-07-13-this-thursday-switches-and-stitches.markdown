@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_759" align="aligncenter" width="500" caption="Photo by Becky Stern.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic License."][![Prepare the switch](http://www.heatsynclabs.org/wp-content/uploads/2010/07/2531164907_85abd84c31.jpg)](http://www.flickr.com/photos/bekathwia/2531164907/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Becky Stern.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/07/2531164907_85abd84c31.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/bekathwia/2531164907/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - Commons Area**
 

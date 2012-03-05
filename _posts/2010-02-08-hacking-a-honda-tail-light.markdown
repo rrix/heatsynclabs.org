@@ -15,13 +15,21 @@ Here in the MC we're known for having some pretty bad car drivers running the st
 
 “This one is about $10 in parts, although that's also with $50 worth of new tools and failed prototypes.”  Nate showed me his latest prototype, the third version of a series of prototypes.  “The first one just failed, the second one used 50 LEDs and far, far too much power... and it didn't fit.”  The current model was sketched out first, and ExpressPCB (on Windows; Sadly they don't yet have a Linux client) was used to design the circuitry.
 
-[caption id="attachment_374" align="aligncenter" width="500" caption="Photo by .dh. Distributed under a Creative Commons Attribution 2.0 Generic License."][![](http://www.heatsynclabs.org/wp-content/uploads/2010/02/4323967988_fdfff7358b.jpg)](http://www.flickr.com/photos/25968780@N03/4323967988/in/pool-heatsynclabs)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh. Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/02/4323967988_fdfff7358b.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4323967988/in/pool-heatsynclabs" %}
+{% include heatsynclabs/caption %}
 
 This model contains 26 red LEDs for running and brake light as well as 2 white LEDs to illuminate a license plate, which is right below the tail light housing.  The three-line cable connecting it to the bike's lighting system brings two different voltage sources in; One is always on (normal running light) and the other one is applied when the brakes are hit.  The power in a bike tail light socket is made to handle a 5-watt running, 21-watt brake bulb, and since this uses LEDs, they draw a lot less power.  The combined 26 LEDs on this draw ~2 watts running and ~4 watts brake at full power with all LEDs active.
 
 At the core of the design is an NE555p, a timer chip which will output a different square wave depending on the ratio of resistance between two of its pins.  “This is a grid board, with wires connecting large distances and solder bridges connecting connections with neighboring through-holes.”  Look closely at the back of the board: “In some parts I used the leftover leads from LEDs to bridge two points together on the back to avoid adding more wire.”  Clever hacks, people.
 
-[caption id="attachment_373" align="aligncenter" width="500" caption="Photo by .dh. Distributed under a Creative Commons Attribution-Non-Commercial 2.0 Generic License."][![](http://www.heatsynclabs.org/wp-content/uploads/2010/02/4339119957_f3b1091937.jpg)](http://www.flickr.com/photos/25968780@N03/4339119957/in/pool-heatsynclabs)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh. Distributed under a Creative Commons Attribution-Non-Commercial 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/02/4339119957_f3b1091937.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4339119957/in/pool-heatsynclabs" %}
+{% include heatsynclabs/caption %}
 
 Although there isn't anything functionally broken in this version, Nate points out that there are improvements that would have to be made in the next version before putting it in his bike.  “[This prototype] would only work with a clear lens since red light cover with red LEDs equals weak pinkish light.”  Aside from using brighter white LEDs, it will also lack the 3-pin modular power connector that was used in the current version, and add some kind of mount to actually keep it in place inside the light cover.  “A printed circuit board will be ideal if I make more than one, too.”
 

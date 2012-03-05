@@ -12,7 +12,11 @@ categories:
 
 **_Editor's Note_**_: As part of my position  as Editor at HeatSync Labs, I get to put on a reporter hat and take the  spotlight of the Information Super Highway on our local Arizona makers,  hackers, and tinkerers.  If you or anyone you know is building something  pretty awesome and they're within driving distance, leave a comment and  I'll see if I can follow up on it.  This $timeFrame's features maker is Rene Sanchez, who created an Arduino-powered GPS data display for his  motorcycle._
 
-[caption id="attachment_941" align="aligncenter" width="500" caption="Photo by .dh.  Distributed Under a Creative Commons Attribution 2.0 Generic License."][![Totally metal, man.](http://www.heatsynclabs.org/wp-content/uploads/2010/09/4973107124_62567eed64.jpg)](http://www.flickr.com/photos/25968780@N03/4973107124/in/set-72157624788524611/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed Under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/09/4973107124_62567eed64.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4973107124/in/set-72157624788524611/" %}
+{% include heatsynclabs/caption %}
 
 A lot of local hackers roll on two wheels.  Sometimes that means two wheels and a motor, and this time it means two wheels, a motor, and a bunch of stuff from Adafruit.  Our own Rene Sanchez built a navigation data display to show GPS coordinates, direction, temperature, and other handy information on a glowing blue LCD display.
 

@@ -10,7 +10,11 @@ categories:
 - Traveling
 ---
 
-[caption id="attachment_1795" align="aligncenter" width="500" caption="Photo by Keith Simmons.  Distributed under a Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license."][![We totally didn't forget to take photos of Noisebridge, we just didn't FEEL like posting them.](http://www.heatsynclabs.org/wp-content/uploads/2011/06/noisebridge.jpg)](http://www.flickr.com/photos/dreamexplorer/5739483104/in/set-72157626637061769/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Keith Simmons.  Distributed under a Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/06/noisebridge.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/dreamexplorer/5739483104/in/set-72157626637061769/" %}
+{% include heatsynclabs/caption %}
 
 HeatSync Labs was at Maker Faire last month, and while we were in the area we visited some hackerspaces and took photos, like we do.  Before Maker Faire began, we got a chance to visit [Noisebridge](https://www.noisebridge.net/wiki/Noisebridge) for their 15 Minutes of Fame, where our very own Schuyler talked about his Makerbot.  We also visited [Hacker Dojo](http://wiki.hackerdojo.com/w/page/25437/FrontPage) in Mountain View and [ACE Monster Toys](http://acemonstertoys.org/) in Oakland  too <del>and actually remembered to bring the camera</del>.
 

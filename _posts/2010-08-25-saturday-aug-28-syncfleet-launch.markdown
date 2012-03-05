@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_853" align="aligncenter" width="500" caption="Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License."][![Not because its easy, but because its hard...](http://www.heatsynclabs.org/wp-content/uploads/2010/08/4446645227_e9f6dccaa9.jpg)](http://www.flickr.com/photos/25968780@N03/4446645227/in/pool-1298721@N24/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/08/4446645227_e9f6dccaa9.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4446645227/in/pool-1298721@N24/" %}
+{% include heatsynclabs/caption %}
 
 **SyncFleet Launch (Sat) 5:00 am|az @ Gangplank - HeatSync Labs HQ**
 

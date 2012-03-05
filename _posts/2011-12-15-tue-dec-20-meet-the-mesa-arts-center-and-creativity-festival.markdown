@@ -9,7 +9,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_2387" align="aligncenter" width="500" caption="Photo by joelstine. Distributed under a Creative Commons Attribution 2.0 Generic (CC BY-NC-SA- 2.0) License."][![Mesa Arts Center](http://www.heatsynclabs.org/wp-content/uploads/2011/12/3489847049_df556b496f_z2.jpg)](http://www.heatsynclabs.org/tue-dec-20-meet-the-mesa-arts-center-and-creativity-festival/3489847049_df556b496f_z-3/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by joelstine. Distributed under a Creative Commons Attribution 2.0 Generic (CC BY-NC-SA- 2.0) License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/12/3489847049_df556b496f_z2.jpg" %}
+{% assign caption_photo_url = "http://www.heatsynclabs.org/tue-dec-20-meet-the-mesa-arts-center-and-creativity-festival/3489847049_df556b496f_z-3/" %}
+{% include heatsynclabs/caption %}
 
 **(Tue Dec 20) 7:00 pm|az @ HeatSync Labs - Kipp Hall**
 

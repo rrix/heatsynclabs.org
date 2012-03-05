@@ -15,7 +15,10 @@ The official HeatSync Labs T-Shirt is currently being mass-produced with the rep
 
 
 
-[caption id="attachment_245" align="aligncenter" width="502" caption="Keep it classy, Arizona"]![Keep it classy, Arizona](http://www.heatsynclabs.org/wp-content/uploads/2009/12/heatsync.png)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Keep it classy, Arizona" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2009/12/heatsync.png" %}
+{% include heatsynclabs/caption %}
 
 Shirts will be available in various sizes, and each will sell for the low, low price of $20.
 

@@ -11,7 +11,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_921" align="aligncenter" width="500" caption="Photo by Delexed.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License."][![Texas Hold 'Em](http://www.heatsynclabs.org/wp-content/uploads/2010/09/4396760044_351cfbd272.jpg)](http://www.flickr.com/photos/delexed/4396760044/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Delexed.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/09/4396760044_351cfbd272.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/delexed/4396760044/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 Do you have fond memories of stepping on LEGO bricks and all the cool stuff you could build with them?  Luckily, LEGO is still around and hasn't been totally replaced with Pokemons and Bratz dolls in modern-day childhood.  You know what else hasn't changed?  Texas Hold 'Em!  Join Gangplank's [FIRST](http://en.wikipedia.org/wiki/FIRST) [Lego League](http://gangplankhq.com/2010/08/dedication/) and HeatSync Labs on September 16th for a night of grown-up merriment in support of the kiddies and their engineering ambitions.
 

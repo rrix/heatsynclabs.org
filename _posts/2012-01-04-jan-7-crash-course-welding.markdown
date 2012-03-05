@@ -9,7 +9,11 @@ categories:
 - Classes
 ---
 
-[caption id="attachment_2463" align="aligncenter" width="400" caption="This could be YOU! Photo by Dawn Nakaya."][![](http://www.heatsynclabs.org/wp-content/uploads/2012/01/25401252_0c7804a70e_o.jpg)](http://www.flickr.com/photos/dawnnakaya/25401252/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "This could be YOU! Photo by Dawn Nakaya." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2012/01/25401252_0c7804a70e_o.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/dawnnakaya/25401252/" %}
+{% include heatsynclabs/caption %}
 
 **Both sessions are now sold out! Watch here soon within a couple weeks for more classes**
 

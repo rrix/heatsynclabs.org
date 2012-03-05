@@ -12,7 +12,11 @@ categories:
 
 ** **
 
-[caption id="attachment_1363" align="aligncenter" width="500" caption="Photo by Viktoria B. Distributed under a Creative Commons Attribution-NoDerivs 2.0 Generic License."][![](http://www.heatsynclabs.org/wp-content/uploads/2011/02/2539840471_f5bac9b36e1.jpg)](http://www.heatsynclabs.org/feb-26-workshop-basic-woodworking-25/2539840471_f5bac9b36e-3/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Viktoria B. Distributed under a Creative Commons Attribution-NoDerivs 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/02/2539840471_f5bac9b36e1.jpg" %}
+{% assign caption_photo_url = "http://www.heatsynclabs.org/feb-26-workshop-basic-woodworking-25/2539840471_f5bac9b36e-3/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs Feb 17) 7:00 pm|az @ Gangplank - Commons Area**
 

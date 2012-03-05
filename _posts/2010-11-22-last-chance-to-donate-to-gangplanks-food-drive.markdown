@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1041" align="aligncenter" width="500" caption="Photo by Chuck Reynolds.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License."][![IM IN UR GANGPLANK DROPPIN OFF FOODZ](http://www.heatsynclabs.org/wp-content/uploads/2010/11/3753757904_d40f7d380d.jpg)](http://www.flickr.com/photos/ryno/3753757904/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Chuck Reynolds.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/11/3753757904_d40f7d380d.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/ryno/3753757904/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 Gangplank's food drive to help Arizona's hungry was a spectacular success last year, and this year we'd like to help Gangplank continue that momentum again in 2010.  If you're stopping by Gangplank before Thanksgiving (such as for our [3D printing/RepRap meetup](http://www.heatsynclabs.org/events/)), please consider dropping off a can of [noms](http://knowyourmeme.com/memes/om-nom-nom-nom) for those among us in need.  Precariously bulging drop-off boxes are located near Gangplank's Arizona Avenue entrance.
 

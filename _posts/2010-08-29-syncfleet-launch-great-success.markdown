@@ -9,7 +9,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_884" align="aligncenter" width="500" caption="Photo by planetwrite / HeatSync Labs.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![HeatSync Labs in spaaaaaace!](http://www.heatsynclabs.org/wp-content/uploads/2010/08/4934994403_964e965e0c.jpg)](http://www.flickr.com/photos/planetwrite/4934994403/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by planetwrite / HeatSync Labs.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/08/4934994403_964e965e0c.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/planetwrite/4934994403/" %}
+{% include heatsynclabs/caption %}
 
 As many of you have known, HeatSync Labs entered [Workshop 88](http://www.workshop88.com/)'s [Hackerspaces in Space contest](http://www.workshop88.com/space/).  After [Noisebridge successfully launched their first nearspacecraft](http://laughingsquid.com/noisebridge-has-a-space-program/), HeatSync Labs established SyncFleet to [challenge California's space prowess](http://www.heatsynclabs.org/california-eclipses-the-sky-the-space-race-begins-now/) and bring together Arizona space geeks of every kind, [some](http://vimeo.com/2575631) [with](http://www.flickr.com/photos/nebarnix/sets/72157604030218239/) successful nearspace projects of their own under their belts, to reach the edge of space.  With the experience and expertise of a capable crew, we were able to build the HSL Majel Barrett nearspacecraft to withstand the harsh environment of the stratosphere and the smackdown of gravity that finishes the voyage. Oh, and it recorded video!
 

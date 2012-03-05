@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1835" align="aligncenter" width="500" caption="Photo by scorche.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license."][![Tastes like science!](http://www.heatsynclabs.org/wp-content/uploads/2011/06/4806451068_6cf11638e1.jpg)](http://www.flickr.com/photos/scorche/4806451068/in/set-72157624530755084/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by scorche.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/06/4806451068_6cf11638e1.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/scorche/4806451068/in/set-72157624530755084/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs Jun 30) 7:00 pm|az @ HeatSync Labs - Kipp Hall**
 

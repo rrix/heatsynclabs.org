@@ -9,7 +9,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_2528" align="aligncenter" width="500" caption="It's not this dull looking, we promise! Photo by Northeast Indiana"][![](http://www.heatsynclabs.org/wp-content/uploads/2012/01/2299575087_c29477cabb.jpg)](http://www.flickr.com/photos/northeastindiana/2299575087/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "It's not this dull looking, we promise! Photo by Northeast Indiana" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2012/01/2299575087_c29477cabb.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/northeastindiana/2299575087/" %}
+{% include heatsynclabs/caption %}
 
 This Thursday is our quarterly board meeting. The board will be discussing a number of topics outlined on this [scheduled agenda](http://groups.google.com/group/heatsynclabs/browse_thread/thread/dc5dc7872a6c055a). All members in good standing are encouraged to attend the meeting and voice opinions on the topics that matter. We will be starting promptly at 7:00 PM in the common area downstairs.
 

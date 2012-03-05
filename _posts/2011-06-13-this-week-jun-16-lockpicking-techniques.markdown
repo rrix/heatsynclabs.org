@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1791" align="aligncenter" width="500" caption="Photo by David Huerta.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license."][![IM IN UR LOCKZ, BUMPIN UR PINS](http://www.heatsynclabs.org/wp-content/uploads/2011/06/4277773357_87044ed86d.jpg)](http://www.flickr.com/photos/25968780@N03/4277773357/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by David Huerta.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/06/4277773357_87044ed86d.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4277773357/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs Jun 16) 7:00 pm|az @ Gangplank - Commons Area**
 

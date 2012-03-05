@@ -9,7 +9,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_2195" align="aligncenter" width="500" caption="Ya voté, CC-BY-NC-SA by Gerry Brague"][![](http://www.heatsynclabs.org/wp-content/uploads/2011/10/4715028518_b3fcabbbe0_b.jpg)](http://www.flickr.com/photos/revger/4715028518/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Ya voté, CC-BY-NC-SA by Gerry Brague" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/10/4715028518_b3fcabbbe0_b.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/revger/4715028518/" %}
+{% include heatsynclabs/caption %}
 
 
 

@@ -9,7 +9,10 @@ categories:
 - Event
 ---
 
-[caption id="attachment_2526" align="aligncenter" width="500" caption="Beware of Sharks!  Photo by Betsy Weber"]![](http://www.heatsynclabs.org/wp-content/uploads/2012/01/6292415657_994c5403fb.jpg)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Beware of Sharks!  Photo by Betsy Weber" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2012/01/6292415657_994c5403fb.jpg" %}
+{% include heatsynclabs/caption %}
 
 This Friday, HeatSync Labs will be hosting the latest in our series of unfortunately titled lightning talk nights, Hot Topics! Much like Ignite, TED and Noisebridge's Five Minutes of Fame, these talks give the community the chance to show off all of the awesome things they are working on. We've an exciting lineup this time around:
 

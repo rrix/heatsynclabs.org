@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1657" align="aligncenter" width="500" caption="Photo by Nic McPhee.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0) license."][![FIRST Competition](http://www.heatsynclabs.org/wp-content/uploads/2011/04/3416413325_c57c6e45a9.jpg)](http://www.flickr.com/photos/nics_events/3416413325/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Nic McPhee.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/04/3416413325_c57c6e45a9.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/nics_events/3416413325/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs Apr 21) 7:00 pm|az @ Gangplank - Commons Area**
 

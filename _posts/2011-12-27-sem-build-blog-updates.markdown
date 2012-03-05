@@ -13,7 +13,11 @@ Jasper is back in action on the [SEM project](http://wiki.heatsynclabs.org/wiki/
 
 _**[Compression Fitting Assembled with BA Gauge](http://hsl-sem.tumblr.com/post/14701732133)**_
 
-[caption id="attachment_2435" align="aligncenter" width="300" caption="Compression Fitting Assembled with BA Gauge by Jasper Nance"][![](http://www.heatsynclabs.org/wp-content/uploads/2011/12/6559592381_2c6e5414ab_b-300x227.jpg)](http://www.flickr.com/photos/nebarnix/6559592381/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Compression Fitting Assembled with BA Gauge by Jasper Nance" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/12/6559592381_2c6e5414ab_b-300x227.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/nebarnix/6559592381/" %}
+{% include heatsynclabs/caption %}
 
 
 > The BA gauge which I want to use to measure the ultimate vacuum level is a glass tube type and lacks a flange. The solution is either to torch a metal fitting out of kovar (expensive) or to use a simple viton O-ring compression fitting. Since the latter isn’t destructive and I don’t yet trust my glassblowing skills, I went with the compression fitting.
@@ -23,7 +27,11 @@ Instead of buying a compression fitting from a vacuum supplier, I decided to go 
 
 **_[Turbomolecular Porn](http://hsl-sem.tumblr.com/post/14710385864)_**
 
-[caption id="attachment_2436" align="aligncenter" width="300" caption="Turbomolecular Porn by Jasper Nance"][![](http://www.heatsynclabs.org/wp-content/uploads/2011/12/6180407883_3d34921036_b-300x200.jpg)](http://www.flickr.com/photos/hslphotosync/6180407883/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Turbomolecular Porn by Jasper Nance" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/12/6180407883_3d34921036_b-300x200.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/hslphotosync/6180407883/" %}
+{% include heatsynclabs/caption %}
 
 
 > The turbomolecular pump has been attached! The largest flange on the chamber is a KF-50 for various reasons including cost of fitting hardware. Above this size, ISO fittings must be used and these are much more expensive than the KF style.

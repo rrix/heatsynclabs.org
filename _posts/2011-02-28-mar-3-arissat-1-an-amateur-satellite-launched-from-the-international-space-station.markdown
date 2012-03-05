@@ -11,7 +11,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1445" align="aligncenter" width="500" caption="Photo by NASA's Marshall Space Flight Center.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic license (CC BY-NC 2.0)."][![HAL, open the pod bay door...](http://www.heatsynclabs.org/wp-content/uploads/2011/02/4385039950_1505192542.jpg)](http://www.flickr.com/photos/28634332@N05/4385039950/in/faves-25968780@N03/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by NASA's Marshall Space Flight Center.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic license (CC BY-NC 2.0)." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/02/4385039950_1505192542.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/28634332@N05/4385039950/in/faves-25968780@N03/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs Mar 3) 7:00 pm|az @ Gangplank - Commons Area**
 

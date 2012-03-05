@@ -11,7 +11,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_492" align="aligncenter" width="490" caption="Photo by Rick Osgood. 2010 All rights reserved and enforced with ninjas."][![dc480 in spaaaaace!](http://www.heatsynclabs.org/wp-content/uploads/2010/03/n138900389_30087204_2939.jpg)](http://www.heatsynclabs.org/wp-content/uploads/2010/03/n138900389_30087204_2939.jpg)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Rick Osgood. 2010 All rights reserved and enforced with ninjas." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/03/n138900389_30087204_2939.jpg" %}
+{% assign caption_photo_url = "http://www.heatsynclabs.org/wp-content/uploads/2010/03/n138900389_30087204_2939.jpg" %}
+{% include heatsynclabs/caption %}
 
 We're kicking off this month with a psuedo-marathon of awesome featuring microcontroller programming, RepRap construction, and our plans to purge the Harkonnen from Arrakis take some pretty pictures from spaaaaace!  Cancel your spring break bikini shopping and hop over to Gangplank this week and check out these fine events:
 

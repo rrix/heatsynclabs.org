@@ -13,7 +13,11 @@ categories:
 
 
 
-[caption id="attachment_443" align="aligncenter" width="500" caption="Photo by .dh. Distributed under a Creative Commons Attribution 2.0 Generic License."][![](http://www.heatsynclabs.org/wp-content/uploads/2010/02/4278515476_eec8ea4467.jpg)](http://www.flickr.com/photos/25968780@N03/4278515476/in/set-72157623219433140/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh. Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/02/4278515476_eec8ea4467.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4278515476/in/set-72157623219433140/" %}
+{% include heatsynclabs/caption %}
 
 We're inching closer and closer to victory on our RepRap 3D printer.  Earlier this month, we completed assembling virtually all circuitry, although there were some setbacks and some ICs have to be reseated.  The X carriage components are also [nearing completion](http://twitpic.com/12z9zd).  We've also worked on the RepRap on off-meeting days when our Board members happened to show up on a whim.  If you'd like to join us on our sporadic adventures at Gangplank, keep a close eye on us on [Twitter](http://twitter.com/heatsynclabs).
 

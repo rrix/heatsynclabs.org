@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_700" align="aligncenter" width="500" caption="Photo by Nebarnix.  Distributed under a Creative Commons Attribution-Non-Commercial-No Derivative Works 2.0 Generic License."][![lime aspolding](http://www.heatsynclabs.org/wp-content/uploads/2010/05/4652473801_feaa88aaa0.jpg)](http://www.flickr.com/photos/nebarnix/4652473801/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Nebarnix.  Distributed under a Creative Commons Attribution-Non-Commercial-No Derivative Works 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/05/4652473801_feaa88aaa0.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/nebarnix/4652473801/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed) 7:00 pm|az @ Gangplank – Conference Room**
 

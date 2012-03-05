@@ -8,8 +8,10 @@ wordpress_id: '2304'
 categories:
 - Event
 ---
+{% include JB/setup %}
 
-[caption id="attachment_2296" align="aligncenter" width="500" caption="A completed Boarduino! Photo by Benjamin Hollis"][![](http://www.heatsynclabs.org/wp-content/uploads/2011/11/3116793147_80ca2e8f84_b-300x225.jpg)](http://www.flickr.com/photos/dalangalma/3116793147/)[/caption]
+{% assign caption_photo = ")](http://www.flickr.com/photos/dalangalma/3116793147/)[/caption]" %}
+{% include heatsynclabs/caption %}
 
 Hope you've registered if you're interested in learning to solder, code and hack with Mitch this Saturday! His Arduino for Total Newbies class is officially filled up! If you're registered, this post serves as a reminder to be there, though you probably did not need it! Be sure to arrive before 1:00 PM on Saturday so that we have time to set up and get ready for the class.
 

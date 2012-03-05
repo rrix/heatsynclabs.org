@@ -9,7 +9,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1499" align="aligncenter" width="500" caption="Photo by Joyce Tang.  All rights reserved."][![HeatSync Labs is Serious Business](http://www.heatsynclabs.org/wp-content/uploads/2011/03/5315074812_1a58015b4a.jpg)](http://www.flickr.com/photos/thejoycelet/5315074812/in/pool-1298721@N24/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Joyce Tang.  All rights reserved." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/03/5315074812_1a58015b4a.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/thejoycelet/5315074812/in/pool-1298721@N24/" %}
+{% include heatsynclabs/caption %}
 
 After over a year of hard, painstaking work, patience, and fundraising, HeatSync Labs has now officially been approved of its 501(c)3 nonprofit status by the IRS and recognized at the federal level! We now join the very small handful of hackerspaces to have achieved this goal.  This is a huge step in legitimizing this radical hackerspace concept and we thank you all for sticking with us during these while we all worked to build this organization.  Here's a timeline of our milestones for this achievement so far:
 

@@ -11,7 +11,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1111" align="aligncenter" width="500" caption="Photo by Justin McClean.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License."][![Arduino in Australia](http://www.heatsynclabs.org/wp-content/uploads/2011/01/4296109451_fd56356147.jpg)](http://www.flickr.com/photos/justinmclean/4296109451/in/set-72157623615260708/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Justin McClean.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/01/4296109451_fd56356147.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/justinmclean/4296109451/in/set-72157623615260708/" %}
+{% include heatsynclabs/caption %}
 
 **UrbanSTEW Presents: January STEWshop (Jan 15th) @ MADCAP Theaters
 **

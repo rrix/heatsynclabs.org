@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1025" align="aligncenter" width="500" caption="Photo by Gerald Brynes.  Distributed under a Attribution-NonCommercial-ShareAlike 2.0 Generic License."][![If only TCP/IP could transmit smell...](http://www.heatsynclabs.org/wp-content/uploads/2010/11/4425482347_8bf10a7458.jpg)](http://www.flickr.com/photos/gbyrnes/4425482347/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Gerald Brynes.  Distributed under a Attribution-NonCommercial-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/11/4425482347_8bf10a7458.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/gbyrnes/4425482347/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed) 7:00 pm|az @ Gangplank – Rear Meeting Room**
 

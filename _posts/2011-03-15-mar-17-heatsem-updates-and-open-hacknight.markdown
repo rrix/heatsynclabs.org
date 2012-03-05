@@ -10,7 +10,10 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1544" align="aligncenter" width="500" caption="Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license."]![We have a sucky vacuum.](http://www.heatsynclabs.org/wp-content/uploads/2011/03/heatsem.jpg)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/03/heatsem.jpg" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs Mar 17) 7:00 pm|az @ Gangplank - Commons Area**
 

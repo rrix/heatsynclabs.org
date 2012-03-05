@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_642" align="aligncenter" width="500" caption="Photo by Mélisande*. Distributed under a Creative Commons Attribution-Non-Commercial-Share Alike 2.0 Generic License."][![Goranesque Triangle](http://www.heatsynclabs.org/wp-content/uploads/2010/05/1020452906_e78b231f8a.jpg)](http://www.flickr.com/photos/melisande-origami/1020452906/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Mélisande*. Distributed under a Creative Commons Attribution-Non-Commercial-Share Alike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/05/1020452906_e78b231f8a.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/melisande-origami/1020452906/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed) 7:00 pm|az @ Gangplank – Conference Room**
 

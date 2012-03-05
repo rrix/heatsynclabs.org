@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_788" align="aligncenter" width="500" caption="Photo by cobalt123.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License."][![A sliver of glamour in Mesa](http://www.heatsynclabs.org/wp-content/uploads/2010/07/2133258266_d10bdca78e.jpg)](http://www.flickr.com/photos/cobalt/2133258266/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by cobalt123.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/07/2133258266_d10bdca78e.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/cobalt/2133258266/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - West Parking Lot**
 

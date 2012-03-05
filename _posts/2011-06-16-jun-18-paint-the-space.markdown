@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1808" align="aligncenter" width="480" caption="Photo by Jeremy Leung.  All rights reserved."][![Hacking a hackerspace](http://www.heatsynclabs.org/wp-content/uploads/2011/06/hsl_mesa_under_construction.jpg)](http://lockerz.com/s/111144978)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Jeremy Leung.  All rights reserved." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/06/hsl_mesa_under_construction.jpg" %}
+{% assign caption_photo_url = "http://lockerz.com/s/111144978" %}
+{% include heatsynclabs/caption %}
 
 **Paint the Space! (Saturday, June 18th, 1pm****) @ HeatSync Labs (Mesa)**
 

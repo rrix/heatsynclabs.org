@@ -13,7 +13,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1034" align="aligncenter" width="500" caption="Photo by lesleyhyphenanne.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License."][![Ring ring ring ring bananaphone!](http://www.heatsynclabs.org/wp-content/uploads/2010/11/3941167224_c3a906f80b.jpg)](http://www.flickr.com/photos/lesleyhyphenanne/3941167224/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by lesleyhyphenanne.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/11/3941167224_c3a906f80b.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/lesleyhyphenanne/3941167224/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - Commons Area**
 

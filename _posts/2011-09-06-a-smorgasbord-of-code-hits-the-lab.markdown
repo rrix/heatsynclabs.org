@@ -9,7 +9,11 @@ categories:
 - Event
 ---
 
-[caption id="attachment_1795" align="aligncenter" width="500" caption="Photo by Br3nda.  Distributed under a Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license."][![Super Happy Dev House](http://www.heatsynclabs.org/wp-content/uploads/2011/09/742923413_9b71b6d7b6_b.jpg)](http://www.flickr.com/photos/taniwha/742923413/in/pool-42289857@N00/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Br3nda.  Distributed under a Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/09/742923413_9b71b6d7b6_b.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/taniwha/742923413/in/pool-42289857@N00/" %}
+{% include heatsynclabs/caption %}
 
 
 HeatSync Labs is hosting a handful of coding events! If you have a project you'd like to hack on, whether it's HTML5, Ruby or any of those old fashion native languages (of which your editor is a diehard), come by the space and hack on something awesome!

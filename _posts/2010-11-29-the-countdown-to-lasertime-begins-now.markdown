@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1058" align="aligncenter" width="500" caption="Photo by todbot.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License."][![IMMA CHARGIN MAH CREDIT CARD](http://www.heatsynclabs.org/wp-content/uploads/2010/11/5150505642_bd058e8725.jpg)](http://www.flickr.com/photos/todbot/5150505642/in/pool-1277764@N25/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by todbot.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/11/5150505642_bd058e8725.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/todbot/5150505642/in/pool-1277764@N25/" %}
+{% include heatsynclabs/caption %}
 
 HeatSync Labs has done and continues to do a lot of [awesome things](http://www.heatsynclabs.org/wiki/Projects).  Our combined resources and resourcefulness have [sent a camera to the edge of space](http://vimeo.com/14533432), built a [Tesla coil from scrap](http://www.heatsynclabs.org/wiki/Tesla_Coil), contributed to [research in the field of 3D printing](http://www.heatsynclabs.org/wiki/Phoenix_RepRap), and we've even thrown a [nerdy party](http://www.flickr.com/photos/25968780@N03/sets/72157625111790589/) that featured a [mechanical mustache](http://www.boingboing.net/2010/10/31/mechanical-mustache.html)!
 

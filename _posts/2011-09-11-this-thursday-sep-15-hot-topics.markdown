@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="" align="aligncenter" width="500" caption="This is not Hot Topic. Photo by Thomas Hawk"][![](http://farm2.static.flickr.com/1428/5097752265_c74a09f592.jpg)](http://www.flickr.com/photos/thomashawk/5097752265/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "This is not Hot Topic. Photo by Thomas Hawk" %}
+{% assign caption_photo = "http://farm2.static.flickr.com/1428/5097752265_c74a09f592.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/thomashawk/5097752265/" %}
+{% include heatsynclabs/caption %}
 
 **Thursday 15 September 2011 7:00 pm**
 

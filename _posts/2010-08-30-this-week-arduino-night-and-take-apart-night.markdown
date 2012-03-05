@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_868" align="aligncenter" width="500" caption="Photo by Steve Jurvetson.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![Wall-E IRL](http://www.heatsynclabs.org/wp-content/uploads/2010/08/489257240_10e554de46.jpg)](http://www.flickr.com/photos/jurvetson/489257240/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Steve Jurvetson.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/08/489257240_10e554de46.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/jurvetson/489257240/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 Welcome to September, kids!  This week we have our Arduino night and our Meeting night back-to-back!  Deets:
 

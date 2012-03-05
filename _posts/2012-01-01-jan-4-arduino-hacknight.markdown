@@ -9,7 +9,10 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_2447" align="aligncenter" width="500" caption="It's a Sparkfun-induced holiday at HeatSync Labs! Photo by Ryan Rix"]![](http://www.heatsynclabs.org/wp-content/uploads/2012/01/twip1-300x200.jpg)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "It's a Sparkfun-induced holiday at HeatSync Labs! Photo by Ryan Rix" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2012/01/twip1-300x200.jpg" %}
+{% include heatsynclabs/caption %}
 
 Hey, HeatSync, what awesome toys did you get for the Holidays? This Wednesday we'll be hosting our monthly Arduino hacknight so you can come by and show off the cool toys you got and build something awesome!
 

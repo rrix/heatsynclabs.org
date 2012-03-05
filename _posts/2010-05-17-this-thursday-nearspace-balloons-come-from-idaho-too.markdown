@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_681" align="aligncenter" width="500" caption="Photo by Nerbarnix.  Distributed under a Creative Commons Attribution-Non-Commercial-No Derivative Works 2.0 Generic License."][![Technically, the launch was in eastern Washington...](http://www.heatsynclabs.org/wp-content/uploads/2010/05/2308974983_87bccdb982.jpg)](http://www.flickr.com/photos/nebarnix/2308974983/in/set-72157604030218239/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Nerbarnix.  Distributed under a Creative Commons Attribution-Non-Commercial-No Derivative Works 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/05/2308974983_87bccdb982.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/nebarnix/2308974983/in/set-72157604030218239/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - Commons Area**
 

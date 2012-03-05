@@ -9,7 +9,11 @@ categories:
 - Event
 ---
 
-[caption id="attachment_804" align="aligncenter" width="500" caption="Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License."][![Mmm... ABS](http://www.heatsynclabs.org/wp-content/uploads/2010/08/4489286084_545899ecec.jpg)](http://www.flickr.com/photos/25968780@N03/4489286084/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/08/4489286084_545899ecec.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4489286084/" %}
+{% include heatsynclabs/caption %}
 
 **Dialogue with Solido (Wed) 7:00 pm|az @ Gangplank - Aux Conference Room ( at the rear of the building)**
 

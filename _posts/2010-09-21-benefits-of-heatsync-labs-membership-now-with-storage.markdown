@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_961" align="aligncenter" width="500" caption="Photo by JohnKit. Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License."][![](http://www.heatsynclabs.org/wp-content/uploads/2010/09/4952958609_dc461dc61a.jpg)](http://www.heatsynclabs.org/wp-content/uploads/2010/09/4952958609_dc461dc61a.jpg)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by JohnKit. Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/09/4952958609_dc461dc61a.jpg" %}
+{% assign caption_photo_url = "http://www.heatsynclabs.org/wp-content/uploads/2010/09/4952958609_dc461dc61a.jpg" %}
+{% include heatsynclabs/caption %}
 
 HeatSync Labs started out as a small gathering of hackers and tinkerers from across the Phoenix valley area in empty UAT rooms and scary alleyways in Mesa. Through much effort, outreach, and fundraising, we have become a premier hackerspace that has not only made itself an internationally-recognizable name among other hackerspaces, but has brought together people and resources that would never have otherwise.  Our momentum continues, and you can help us grow better, faster, and stronger by [becoming a member](http://www.heatsynclabs.org/get-involved/membership/) today!
 

@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1860" align="aligncenter" width="500" caption="Photo by lorenzolambertino.  Distributed under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) license."][![Cow says what?](http://www.heatsynclabs.org/wp-content/uploads/2011/07/1449525901_35716ae431.jpg)](http://www.flickr.com/photos/queerdood/1449525901/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by lorenzolambertino.  Distributed under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/07/1449525901_35716ae431.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/queerdood/1449525901/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed Jul 6) 7:00 pm|az @** HeatSync Labs - Kipp Hall****
 

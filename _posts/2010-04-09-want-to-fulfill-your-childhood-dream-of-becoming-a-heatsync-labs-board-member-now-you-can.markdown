@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_579" align="aligncenter" width="500" caption="Photo by pasukaru76. Distributed under a Creative Commons Attribution 2.0 Generic License."][![Join the dark side, we have lab coats!](http://www.heatsynclabs.org/wp-content/uploads/2010/04/4120970442_5ce4650cfc.jpg)](http://www.flickr.com/photos/pasukaru76/4120970442/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by pasukaru76. Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/04/4120970442_5ce4650cfc.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/pasukaru76/4120970442/" %}
+{% include heatsynclabs/caption %}
 
 Hey everyone, as you might have noticed on our [Board page](http://www.heatsynclabs.org/contact/board/), we currently have two positions that have been vacant since their previous officials resigned.  As required in our [bylaws](http://www.heatsynclabs.org/wiki/Bylaws), the officers of the Board must elect some replacements to fill the positions until the next general election.
 

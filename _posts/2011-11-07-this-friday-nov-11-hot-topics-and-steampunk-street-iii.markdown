@@ -9,7 +9,11 @@ categories:
 - Event
 ---
 
-[caption id="attachment_2275" align="aligncenter" width="500" caption="Photo by dreamexplorer. Distributed under a Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license."][![](http://www.heatsynclabs.org/wp-content/uploads/2011/11/5mof.jpg)](http://www.heatsynclabs.org/this-friday-nov-11-hot-topics-and-steampunk-street-iii/5mof/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by dreamexplorer. Distributed under a Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/11/5mof.jpg" %}
+{% assign caption_photo_url = "http://www.heatsynclabs.org/this-friday-nov-11-hot-topics-and-steampunk-street-iii/5mof/" %}
+{% include heatsynclabs/caption %}
 
 ****Friday 11 November 2011 7:00 pm****
 

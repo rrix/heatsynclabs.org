@@ -9,7 +9,11 @@ categories:
 - Event
 ---
 
-[caption id="attachment_2194" align="aligncenter" width="500" caption="MakerFaire WordCamp trip 09. CC-BY by jeremiah.andrick"][![](http://www.heatsynclabs.org/wp-content/uploads/2011/10/3586276558_f8d0bc03c0.jpg)](http://www.flickr.com/photos/jandrick/3586276558/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "MakerFaire WordCamp trip 09. CC-BY by jeremiah.andrick" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/10/3586276558_f8d0bc03c0.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/jandrick/3586276558/" %}
+{% include heatsynclabs/caption %}
 
 Makers, Hackers, Do-ers, Tinkerers and Breakers of the Valley unite! This Saturday, HeatSync Labs will be hosting the Hacker Pavillion at [Phoenix's Inaugural MakerFaire](http://www.makerfairephoenix.com/).
 

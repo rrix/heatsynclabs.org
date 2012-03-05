@@ -9,7 +9,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_520" align="aligncenter" width="500" caption="Photo by johnarobb. Distributed under a Creative Commons Attribution 2.0 Generic License."][![We have tasks for every type of talent!](http://www.heatsynclabs.org/wp-content/uploads/2010/03/4371369897_2bffca0f31.jpg)](http://www.flickr.com/photos/johnarobb/4371369897/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by johnarobb. Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/03/4371369897_2bffca0f31.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/johnarobb/4371369897/" %}
+{% include heatsynclabs/caption %}
 
 HeatSync Labs is made possible by the efforts of people committing a large, but rationed portion of time and energy to make stuff happen and make it awesome.  Since we're not retired industrialists with lots of time in our hands (yet), the growth of our to-do list has begun to outpace our rate of getting tasks completed.  Simply put: We want your help.
 

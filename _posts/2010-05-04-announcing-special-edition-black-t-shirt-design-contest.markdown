@@ -9,7 +9,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_649" align="aligncenter" width="500" caption="Photo by Affiliate. Distributed under a Creative Commons Attribution 2.0 Generic License."][![Hackers don't know bout my three wolves](http://www.heatsynclabs.org/wp-content/uploads/2010/05/3605125507_2e154f33cc.jpg)](http://www.flickr.com/photos/affiliate/3605125507/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Affiliate. Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/05/3605125507_2e154f33cc.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/affiliate/3605125507/" %}
+{% include heatsynclabs/caption %}
 
 [caption id="attachment_650" align="alignleft" width="155" caption="Your design here."]![Boring Design](http://www.heatsynclabs.org/wp-content/uploads/2010/05/ShirtDesign.jpg)[/caption]
 

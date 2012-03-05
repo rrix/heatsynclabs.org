@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_747" align="aligncenter" width="500" caption="Photo by .dh.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![Hello, Free Software World](http://www.heatsynclabs.org/wp-content/uploads/2010/07/4410075560_5bef88b194.jpg)](http://www.flickr.com/photos/25968780@N03/4410075560/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/07/4410075560_5bef88b194.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4410075560/" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed) 7:00 pm|az @ Gangplank – Whatever table we commandeer**
 

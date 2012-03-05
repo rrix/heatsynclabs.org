@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1003" align="aligncenter" width="500" caption="Photo by Lenore Edman.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![WHAT HAS SCIENCE DONE?](http://www.heatsynclabs.org/wp-content/uploads/2010/10/505383250_c297dc560c.jpg)](http://www.flickr.com/photos/lenore-m/505383250/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Lenore Edman.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/10/505383250_c297dc560c.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/lenore-m/505383250/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs, Oct 21) 7:00 pm|az @ Gangplank -** HeatSync Labs HQ****
 

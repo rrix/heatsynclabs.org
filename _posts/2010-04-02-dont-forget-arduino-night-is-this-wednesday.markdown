@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_552" align="aligncenter" width="500" caption="Photo by .dh. Distributed under a Creative Commons Attribution 2.0 Generic License."][![Italia classico e moderno](http://www.heatsynclabs.org/wp-content/uploads/2010/04/4409309421_7b59d069e6.jpg)](http://www.flickr.com/photos/25968780@N03/4409309421/in/set-72157623437981235)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh. Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/04/4409309421_7b59d069e6.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4409309421/in/set-72157623437981235" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed) 7:00 pm|az @ Gangplank – Conference Room**
 

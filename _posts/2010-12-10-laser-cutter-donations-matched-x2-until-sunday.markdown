@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1072" align="aligncenter" width="500" caption="Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License."][![Try doing this with a bandsaw.](http://www.heatsynclabs.org/wp-content/uploads/2010/12/4838115091_01f32270b2.jpg)](http://www.flickr.com/photos/25968780@N03/4838115091/in/set-72157624603663454/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/12/4838115091_01f32270b2.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4838115091/in/set-72157624603663454/" %}
+{% include heatsynclabs/caption %}
 
 *** **UPDATE**: With the addition of funds from an anonymous employee from [NXTGEN Networks](http://nxtgennetworks.com/), the total of funds available in matched contributions is now **$1000**!
 

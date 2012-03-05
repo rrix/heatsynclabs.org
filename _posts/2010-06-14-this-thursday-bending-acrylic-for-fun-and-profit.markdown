@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_712" align="aligncenter" width="500" caption="Photo by zcar.300.  Distributed under a Creative Commons Attribution-Non-Commercial-No Derivative Works 2.0 Generic License."][![Android *and* Maemo compatible.](http://www.heatsynclabs.org/wp-content/uploads/2010/06/4115855068_242a80cc05.jpg)](http://www.flickr.com/photos/billroberts/4115855068/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by zcar.300.  Distributed under a Creative Commons Attribution-Non-Commercial-No Derivative Works 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/06/4115855068_242a80cc05.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/billroberts/4115855068/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - Commons Area**
 

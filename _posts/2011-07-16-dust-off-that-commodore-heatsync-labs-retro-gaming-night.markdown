@@ -11,7 +11,11 @@ categories:
 
 HeatSync Labs is taking a step back to the 1980s this Thursday, July 21 and dragging out the Ataris, Intellivisions, Apple ][ and anything with 8 bits or less! Challenge the resident retro gaming masters at Ms. Pac Man, Frogger and countless other games that defined our youths while sharing yet another ascension story from the depths of the [Mazes of Menace](http://nethack.org).
 
-[caption id="attachment_1095" align="aligncenter" width="500" caption="Photo by Ryan Rix. Distributed under a Creative Commons Attribution-ShareAlike 3.0 Generic License."][![IMG_3463_v1.jpg](http://farm7.static.flickr.com/6121/5941686159_e24c9b2b9e.jpg)](http://www.flickr.com/photos/60827818@N07/5941686159/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Ryan Rix. Distributed under a Creative Commons Attribution-ShareAlike 3.0 Generic License." %}
+{% assign caption_photo = "http://farm7.static.flickr.com/6121/5941686159_e24c9b2b9e.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/60827818@N07/5941686159/" %}
+{% include heatsynclabs/caption %}
 
 Bring a friend, bring a system, bring a game and have a night of fun while reliving some of the memories of youth. We'll be playing everything from the Atari 2600 to the Apple ][gs, to the Intellivision and the Sinclair ZX80. As a special bonus, HeatSync Labs board member Will Bradley will be firing up the oscilloscope and taking on challengers at a game of [Tennis for Two](http://www.flickr.com/photos/60827818@N07/5941685811/in/photostream), one of the first video games ever created. What was once a large array of vacuum tubes is now condensed on to a single Arduino and will be available for play this Thursday!
 

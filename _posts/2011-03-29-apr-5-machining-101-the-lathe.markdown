@@ -11,7 +11,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1581" align="aligncenter" width="500" caption="Photo by HeatSync Labs.  Distributed under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) license."][![You spin me right round, baby! Right round like a record, baby!](http://www.heatsynclabs.org/wp-content/uploads/2011/03/5548807168_984d0ab5a1.jpg)](http://www.flickr.com/photos/60827818@N07/5548807168/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by HeatSync Labs.  Distributed under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/03/5548807168_984d0ab5a1.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/60827818@N07/5548807168/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Machining 101: The Lathe (Monday****, April 4th, 6pm****) @ HeatSync Labs - $50 (For General Public) $35 (For Members) [[Buy](http://www.heatsynclabs.org/store/classes/)]**
 

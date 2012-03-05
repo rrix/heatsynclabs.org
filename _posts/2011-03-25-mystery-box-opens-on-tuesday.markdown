@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1604" align="aligncenter" width="500" caption="Photo by HeatSync Labs.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license."][![A Riddle Wrapped in a Mystery Inside an Enigma](http://www.heatsynclabs.org/wp-content/uploads/2011/03/5559795449_57c1879d0d.jpg)](http://www.flickr.com/photos/60827818@N07/5559795449/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by HeatSync Labs.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/03/5559795449_57c1879d0d.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/60827818@N07/5559795449/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 As some of you may know, Red Bull of North America has been delivering mysterious boxes to hackerspaces across the country, [including our east coast friends at Alpha One Labs](http://blog.makezine.com/archive/2011/03/red-bull-got-hacked-by-alpha-one-labs.html).  Today, we got one too!  This <del>TRON LARP</del> Tuesday, join us as we open our mystery box, warm up our soldering irons, and build/hack/reverse engineer the riddle wrapped in a mystery inside an enigma.  The box opens on **March 29th at 7pm**!  Bring your skills!
 

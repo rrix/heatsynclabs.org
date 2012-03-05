@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1015" align="aligncenter" width="500" caption="Photo by Dave & Mary Findlay.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License."][![Soldering is kit-tested, kid-approved!](http://www.heatsynclabs.org/wp-content/uploads/2010/10/5037152583_70afc0bbed.jpg)](http://www.flickr.com/photos/finsprings/5037152583/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Dave & Mary Findlay.  Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/10/5037152583_70afc0bbed.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/finsprings/5037152583/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **UrbanSTEW Presents: STEWshops (Nov 13th) 11:00 am|az @ MADCAP Theatres**
 

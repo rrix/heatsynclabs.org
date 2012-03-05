@@ -11,7 +11,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1769" align="aligncenter" width="500" caption="Photo by Karla Fitch. Distributed under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) License."][![Crochet Kawaii Desu!](http://www.heatsynclabs.org/wp-content/uploads/2011/06/4060703242_6edfc3a465.jpg)](http://www.flickr.com/photos/37539972@N06/4060703242/in/faves-25968780@N03/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Karla Fitch. Distributed under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/06/4060703242_6edfc3a465.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/37539972@N06/4060703242/in/faves-25968780@N03/" %}
+{% include heatsynclabs/caption %}
 
 **Learn to Crochet (Saturday****, June 18th, 6pm****) @ HeatSync Labs (Chandler) - $30 [[Buy](http://www.heatsynclabs.org/store/classes/)]**
 

@@ -18,7 +18,11 @@ But wait, there's more!
 
 
 
-[caption id="attachment_276" align="aligncenter" width="518" caption="Photo by .dh.  Distributed under a Creative Commons Attrib 2.0 Generic License."][![RepRap Printer](http://www.heatsynclabs.org/wp-content/uploads/2010/01/rep_rap_dorkbotpdx.jpg)](http://www.flickr.com/photos/25968780@N03/4256219856/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attrib 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/01/rep_rap_dorkbotpdx.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4256219856/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 We'll have complimentary pizza and drinks, just like an IEEE meeting, except we'll be discussing technology that we will build ourselves, with our own hands.  Specifically, we'll be discussing the RepRap printer project our benevolent Board of Directors has rescued from being mothballed into a box of broken dreams by lack of funding from ASU.  We're building it, and we want you to be part of it.  This meeting will be when the endeavor begins, and it will end when it can print parts to make itself.  Aside from this new flagship project, we encourage anyone working on anything interesting to bring in their projects and show them off too.
 

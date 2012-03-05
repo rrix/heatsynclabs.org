@@ -14,7 +14,11 @@ More than six months ago, the HeatSync Labs community rallied together to raise 
 
 It was a battle of epic proportions with much wailing and gnashing of teeth. Jeremy emerged victorious months later, holding a shipping invoice in his hands. And we had our very own laser cutter.
 
-[caption id="attachment_1095" align="aligncenter" width="500" caption="Photo by Ryan Rix. Distributed under a Creative Commons Attribution-ShareAlike 3.0 Generic License."][![IMG_3313.JPG](http://farm7.static.flickr.com/6126/5938903959_0979b42637.jpg)](http://www.flickr.com/photos/60827818@N07/5938903959/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Ryan Rix. Distributed under a Creative Commons Attribution-ShareAlike 3.0 Generic License." %}
+{% assign caption_photo = "http://farm7.static.flickr.com/6126/5938903959_0979b42637.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/60827818@N07/5938903959/" %}
+{% include heatsynclabs/caption %}
 
 Congratulations go to the community who made this possible, including every one who donated to the fund, and everyone who put in their sweat, blood and time to make it happen.
 
@@ -22,4 +26,8 @@ However, the community still has much work to do before the cutter is operationa
 
 And remember kids, it's **not** a toy.
 
-[caption id="attachment_1095" align="aligncenter" width="500" caption="Photo by Ryan Rix. Distributed under a Creative Commons Attribution-ShareAlike 3.0 Generic License."][![IMG_3320.JPG](http://farm7.static.flickr.com/6005/5939459500_6005e88802.jpg)](http://www.flickr.com/photos/60827818@N07/5939459500/)[/caption] 
+{% include JB/setup %}
+{% assign caption_text = "Photo by Ryan Rix. Distributed under a Creative Commons Attribution-ShareAlike 3.0 Generic License." %}
+{% assign caption_photo = "http://farm7.static.flickr.com/6005/5939459500_6005e88802.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/60827818@N07/5939459500/" %}
+{% include heatsynclabs/caption %}

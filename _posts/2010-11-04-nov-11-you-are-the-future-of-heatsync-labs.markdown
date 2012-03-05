@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1019" align="aligncenter" width="500" caption="Photo by .dh.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![Sticker on sticker action](http://www.heatsynclabs.org/wp-content/uploads/2010/10/sticker_on_sticker_action.jpg)](http://www.flickr.com/photos/25968780@N03/5133340254/in/pool-1298721@N24/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/10/sticker_on_sticker_action.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/5133340254/in/pool-1298721@N24/" %}
+{% include heatsynclabs/caption %}
 
 **HeatSync Labs 2010 Election (Thurs, Nov 11) 7:00 pm|az @ Gangplank - Rear Meeting Room**
 

@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="" align="aligncenter" width="500" caption="Escher's Barber Shoppe - Buchla 200e module. Photo by guiltyx"][![](http://farm4.static.flickr.com/3330/3275491239_7bc9860f5c.jpg)](http://www.flickr.com/photos/roll_initiative/3275491239/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Escher's Barber Shoppe - Buchla 200e module. Photo by guiltyx" %}
+{% assign caption_photo = "http://farm4.static.flickr.com/3330/3275491239_7bc9860f5c.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/roll_initiative/3275491239/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 The Electronic music scene shares a lot in common with the hackerspace scene; people playing with and sharing circuits that do awesome things. After a live performance at our [One Year Anniversary Mustache Party](http://www.heatsynclabs.org/oct-23-mustaches-music-and-mad-science/), we are welcoming back [Thru the Wires](http://www.myspace.com/thruthewires) to HeatSync Labs for a presentation on the art of circuit bending and electronic music!
 

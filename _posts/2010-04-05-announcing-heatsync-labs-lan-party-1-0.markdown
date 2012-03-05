@@ -11,7 +11,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_561" align="aligncenter" width="500" caption="Photo by besighyawn.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![LAN Party!](http://www.heatsynclabs.org/wp-content/uploads/2010/04/1270950207_6a9f2667eb.jpg)](http://www.flickr.com/photos/besighyawn/1270950207/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by besighyawn.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/04/1270950207_6a9f2667eb.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/besighyawn/1270950207/" %}
+{% include heatsynclabs/caption %}
 
 Gaming? In my hackerspace?
 

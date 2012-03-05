@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1123" align="aligncenter" width="500" caption="Photo by Gary J. Wood.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic License."][![Hot sexy hard drives bare it all.](http://www.heatsynclabs.org/wp-content/uploads/2011/01/172810044_8e0cce9c08.jpg)](http://www.flickr.com/photos/garyjwood/172810044/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Gary J. Wood.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/01/172810044_8e0cce9c08.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/garyjwood/172810044/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - Commons Area**
 

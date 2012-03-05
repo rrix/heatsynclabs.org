@@ -11,7 +11,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1131" align="aligncenter" width="500" caption="Photo by Steve Pain.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License."][![Linux power without the Google aftertaste.](http://www.heatsynclabs.org/wp-content/uploads/2011/01/4770502937_6bd8ff023e.jpg)](http://www.flickr.com/photos/umpcportal/4770502937/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Steve Pain.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/01/4770502937_6bd8ff023e.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/umpcportal/4770502937/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Intel AppUp Application Lab (Thurs) 5:30 pm|az @ Gangplank - Commons Area**
 

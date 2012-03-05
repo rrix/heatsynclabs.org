@@ -9,7 +9,11 @@ categories:
 - Event
 ---
 
-[caption id="attachment_2534" align="aligncenter" width="379" caption="Patrick's Talon heads for the sky on an Aerotech K695R motor. Photo by Chris Anderson"][![](http://www.heatsynclabs.org/wp-content/uploads/2012/01/3788557279_fca52fa4c5.jpg)](http://www.flickr.com/photos/anderson/3788557279/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Patrick's Talon heads for the sky on an Aerotech K695R motor. Photo by Chris Anderson" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2012/01/3788557279_fca52fa4c5.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/anderson/3788557279/" %}
+{% include heatsynclabs/caption %}
 
 **(Thurs Jan 19) 7:00 pm|az @ HeatSync Labs - Kipp Hall**
 

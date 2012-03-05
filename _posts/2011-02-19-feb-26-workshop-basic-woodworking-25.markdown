@@ -11,12 +11,14 @@ categories:
 - News
 ---
 
-** **
+{% include JB/setup %}
+{% assign caption_text = "Photo by prettydreamer.workshop. Distributed under a Creative Commons Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/02/3510948848_6a126184cc1.jpg" %}
+{% assign caption_photo_url = "http://www.heatsynclabs.org/feb-26-workshop-basic-woodworking-25/3510948848_6a126184cc-2/" %}
+{% include heatsynclabs/caption %}
 
-[caption id="attachment_1364" align="aligncenter" width="500" caption="Photo by prettydreamer.workshop. Distributed under a Creative Commons Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0) license."][![](http://www.heatsynclabs.org/wp-content/uploads/2011/02/3510948848_6a126184cc1.jpg)](http://www.heatsynclabs.org/feb-26-workshop-basic-woodworking-25/3510948848_6a126184cc-2/)[/caption]
 
-
-**Basic Woodworking Workshop (<del>Feb 26th, 1pm</del>**<del>** **</del>** ****Feb 27th, 5pm****) @ HeatSync Labs - $25 [[Buy](http://www.heatsynclabs.org/store/classes)]**
+**Basic Woodworking Workshop (<del>Feb 26th, 1pm</del>**** ****Feb 27th, 5pm****) @ HeatSync Labs - $25 [[Buy](http://www.heatsynclabs.org/store/classes)]**
 
 
 Wood is a gift of nature and a product of lumberjacks.  It's used for all sorts of stuff, probably even the construction of the building you're reading this in! There's just no escaping wood, so why not embrace and harness it for making things?  HeatSync Labs will be hosting a workshop on the basics of woodworking. This class will teach you how to design, plan, measure, cut, and join wood properly as well as how to use the tools safely and correctly. You'll go home knowing how to use power saws, drill presses, hand drills, and combination squares and build a simple, snazzy frame of your own!  Seating is limited, so [order now](http://www.heatsynclabs.org/store/classes).

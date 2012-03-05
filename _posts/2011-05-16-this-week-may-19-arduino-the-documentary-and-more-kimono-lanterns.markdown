@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1725" align="aligncenter" width="500" caption="Photo by John Kittelsrud.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0) license."][![Kimono Lanterns: All the cool kids are making 'em!](http://www.heatsynclabs.org/wp-content/uploads/2011/05/5724584182_60e512c157.jpg)](http://www.flickr.com/photos/teamdroid/5724584182/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by John Kittelsrud.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/05/5724584182_60e512c157.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/teamdroid/5724584182/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs May 19) 7:00 pm|az @ Gangplank - Commons Area**
 

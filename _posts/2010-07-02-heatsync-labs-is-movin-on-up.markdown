@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_734" align="aligncenter" width="500" caption="Photo by .dh.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![HeatSync Labs 3.0](http://www.heatsynclabs.org/wp-content/uploads/2010/06/4737342353_146e48e1f5.jpg)](http://www.flickr.com/photos/25968780@N03/4737342353/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/06/4737342353_146e48e1f5.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/4737342353/" %}
+{% include heatsynclabs/caption %}
 
 As some of you may know, Gangplank has been a pretty awesome benefactor of space to our mad scientist shenanigans, and they plan to relocate to downtown Chandler, where the cool kids will be hanging out from now on.  They're taking us with them, but we need your help to move all our tools, equipment, and supplies over.  The move will take place on the weekend of July 4th, starting Friday afternoon, because moving heavy equipment in hot weather is the best way to celebrate America!  Lemonade and/or similar combinations of sugar and water may or may not be provided for hydration and energy.
 

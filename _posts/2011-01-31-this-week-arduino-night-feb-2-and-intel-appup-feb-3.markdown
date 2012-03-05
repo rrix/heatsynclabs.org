@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1371" align="aligncenter" width="500" caption="Photo by Becky Stern. Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0) License."][![](http://www.heatsynclabs.org/wp-content/uploads/2011/02/2425646723_a40ee2c7e7.jpg)](http://www.heatsynclabs.org/?attachment_id=1371)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Becky Stern. Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0) License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/02/2425646723_a40ee2c7e7.jpg" %}
+{% assign caption_photo_url = "http://www.heatsynclabs.org/?attachment_id=1371" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed) 7:00 pm|az @ Gangplank – Rear Meeting Room**
 

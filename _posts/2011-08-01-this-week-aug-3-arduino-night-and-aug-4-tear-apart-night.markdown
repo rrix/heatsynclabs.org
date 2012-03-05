@@ -9,7 +9,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_1933" align="aligncenter" width="500" caption="Photo by hslphotosync. Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic License."][![Void Your Warranty!](http://www.heatsynclabs.org/wp-content/uploads/2011/08/Screen-shot-2011-08-01-at-11.25.14-PM.png)](http://www.flickr.com/photos/60827818@N07/5907410471/in/photostream)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by hslphotosync. Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/08/Screen-shot-2011-08-01-at-11.25.14-PM.png" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/60827818@N07/5907410471/in/photostream" %}
+{% include heatsynclabs/caption %}
 
 **Arduino Night (Wed Aug 3) 7:00 pm|az @** HeatSync Labs - Kipp Hall****
 

@@ -11,7 +11,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1086" align="aligncenter" width="500" caption="Photo by Matt Mets.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic License."][![Moonshine: Why should the south have all the fun?](http://www.heatsynclabs.org/wp-content/uploads/2010/12/2918325028_6f4b0f1e26.jpg)](http://www.flickr.com/photos/cibomahto/2918325028/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Matt Mets.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/12/2918325028_6f4b0f1e26.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/cibomahto/2918325028/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - Commons Area**
 

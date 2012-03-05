@@ -7,7 +7,11 @@ title: Welding! Learn it now!
 wordpress_id: '2577'
 ---
 
-[caption id="attachment_2463" align="alignleft" width="200" caption="This could be YOU! Photo by Dawn Nakaya."][![](http://www.heatsynclabs.org/wp-content/uploads/2012/01/25401252_0c7804a70e_o-200x300.jpg)](http://www.heatsynclabs.org/wp-content/uploads/2012/01/25401252_0c7804a70e_o.jpg)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "This could be YOU! Photo by Dawn Nakaya." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2012/01/25401252_0c7804a70e_o-200x300.jpg" %}
+{% assign caption_photo_url = "http://www.heatsynclabs.org/wp-content/uploads/2012/01/25401252_0c7804a70e_o.jpg" %}
+{% include heatsynclabs/caption %}
 
 This Saturday!
 

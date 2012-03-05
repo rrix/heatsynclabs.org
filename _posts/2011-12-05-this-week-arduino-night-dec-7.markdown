@@ -9,7 +9,11 @@ categories:
 - Event
 ---
 
-[caption id="attachment_2296" align="aligncenter" width="500" caption="The HeatSync Labs Arduino Wall. Photo by Jacob Rosenthal"][![](http://www.heatsynclabs.org/wp-content/uploads/2011/12/microcontroller.jpg)](http://www.flickr.com/photos/hslphotosync/6324815855/in/photostream)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "The HeatSync Labs Arduino Wall. Photo by Jacob Rosenthal" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/12/microcontroller.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/hslphotosync/6324815855/in/photostream" %}
+{% include heatsynclabs/caption %}
 
 We're sure to be busy for this Wednesday night's Arduino night. First, if you started your [Arduino with Mitch Altman](http://www.heatsynclabs.org/reminder-this-saturday-mitch-altman-will-be/) but didn't finish, tonight is a great night to stop by and finish up! Plus we've got the Mesa Arts Creativity Festival working group stopping by to arduino-fy an upcoming installation. And of course we'll be hosting all the usual Arduino hackers. Stop by, bring your project, and play with our toys.
 

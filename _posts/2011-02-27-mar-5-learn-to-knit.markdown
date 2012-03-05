@@ -10,7 +10,11 @@ categories:
 - Fundraiser
 ---
 
-[caption id="attachment_1438" align="aligncenter" width="500" caption="Photo by Becky Stern.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0) license."][![Not your grandparents' knitting class!](http://www.heatsynclabs.org/wp-content/uploads/2011/02/3221490182_3d604350d4.jpg)](http://www.flickr.com/photos/bekathwia/3221490182/in/photostream/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Becky Stern.  Distributed under a Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/02/3221490182_3d604350d4.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/bekathwia/3221490182/in/photostream/" %}
+{% include heatsynclabs/caption %}
 
 **Learn to Knit (<del></del>**<del>****</del>******Saturday, March 5th, 1pm****) @ HeatSync Labs - $30 [[Buy](../store/classes)]**
 

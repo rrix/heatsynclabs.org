@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1823" align="aligncenter" width="500" caption="Original photo by _sikander.  Distributed under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) license."][![Do it for the kitties!](http://www.heatsynclabs.org/wp-content/uploads/2011/06/kitten.jpg)](http://www.flickr.com/photos/sikander/3941418808/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Original photo by _sikander.  Distributed under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) license." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/06/kitten.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/sikander/3941418808/" %}
+{% include heatsynclabs/caption %}
 
 HeatSync Labs is a 501(c)3 nonprofit organization which operates to fulfill its mission of facilitating and enabling people to build awesome things.  It is not a business and has no employees.  Unlike a business, a nonprofit positions itself to be where it would be needed, not where it'd made the biggest buck.  Mesa does not have a major university or semiconductor giant churning out or bringing in engineering talent and engineer salaries.  Even so, our organization has become a magnet for engineers and artists of every definition and has helped bring a strong technology community into an area where none previously existed.
 

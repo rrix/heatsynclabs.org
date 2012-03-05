@@ -29,4 +29,7 @@ We realize that you may still have some holiday shopping to do, but why buy Uncl
 
 
 
-[caption id="attachment_231" align="aligncenter" width="400" caption="We're counting on you!"]![We're counting on you!](http://www.heatsynclabs.org/wp-content/uploads/2009/12/puppies_kitties.jpeg)[/caption] 
+{% include JB/setup %}
+{% assign caption_text = "We're counting on you!" %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2009/12/puppies_kitties.jpeg" %}
+{% include heatsynclabs/caption %}

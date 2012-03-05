@@ -10,7 +10,11 @@ categories:
 - Meeting
 ---
 
-[caption id="attachment_728" align="aligncenter" width="500" caption="Photo by t_buchtele.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License."][![Needle in a hayst.ac](http://www.heatsynclabs.org/wp-content/uploads/2010/06/3422507814_9aac82779d.jpg)](http://www.flickr.com/photos/t_buchtele/3422507814/in/faves-25968780@N03/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by t_buchtele.  Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/06/3422507814_9aac82779d.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/t_buchtele/3422507814/in/faves-25968780@N03/" %}
+{% include heatsynclabs/caption %}
 
 **HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - Commons Area**
 

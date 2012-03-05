@@ -10,7 +10,11 @@ categories:
 - Fundraiser
 ---
 
-[caption id="attachment_705" align="aligncenter" width="500" caption="Photo by nagobe.  Distributed under a Creative Commons Attribution 2.0 Generic License."][![omgvwbbq](http://www.heatsynclabs.org/wp-content/uploads/2010/06/485815051_cba614d926.jpg)](http://www.flickr.com/photos/nagobe/485815051/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by nagobe.  Distributed under a Creative Commons Attribution 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/06/485815051_cba614d926.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/nagobe/485815051/"%}
+{% include heatsynclabs/caption %}
 
 **HSL BBQ (Sat, June 19th) 1:00 pm|az @ Gangplank – South Parking Lot**
 Join us for a preemptive Independence Day barbecue on Saturday, June 19th at Gangplank!  There will be some hot dogs, burgers, and other BBQ staples to set ablaze on the altar of noms.  A minimum $5 donation gives you access to tasty foods with fellow HeatSync Labs members and patrons.  [Download the flier](http://www.heatsynclabs.org/wp-content/uploads/2010/06/hslbbq.pdf) and tell your friends!

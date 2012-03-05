@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_538" align="aligncenter" width="500" caption="Photo by →Unity. Distributed under a Creative Commons Attribution-Non-Commercial-Share Alike 2.0 Generic License."][![You just lost the game.](http://www.heatsynclabs.org/wp-content/uploads/2010/03/3047058509_cbaf89d769.jpg)](http://www.flickr.com/photos/unity_creative/3047058509/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by →Unity. Distributed under a Creative Commons Attribution-Non-Commercial-Share Alike 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/03/3047058509_cbaf89d769.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/unity_creative/3047058509/" %}
+{% include heatsynclabs/caption %}
 
 The recent success of CERN's Hadron particle collision experiments have prompted the curiosity of many scientifically-inclined locals to wonder what it would take to build our own particle accelerator, without the Franco-Helvetican aftertaste, that is.  Using some information from Your Humble Editor's Toorcamp friends, we heard word of an underground decommissioned ICBM complex near the Arizona border in New Mexico and purchased the land from the owner who was more than ready to be rid of it, since it attracted tweakers and [duck-related graffiti](http://www.flickr.com/photos/mattw/3695047605/).  The facility is completely self-sustaining, containing its own hydroelectric dam, toxic waste treatment facilities, and even an extensive underground tram system.
 

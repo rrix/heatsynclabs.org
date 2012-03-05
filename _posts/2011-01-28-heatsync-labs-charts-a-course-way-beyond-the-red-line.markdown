@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_1235" align="aligncenter" width="500" caption="Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) Licence."][![Admiral Adama will lead the way to Earth.](http://www.heatsynclabs.org/wp-content/uploads/2011/01/5151245075_a1b618239a.jpg)](http://www.flickr.com/photos/25968780@N03/5151245075/in/pool-1298721@N24/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by .dh.  Distributed under a Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) Licence." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2011/01/5151245075_a1b618239a.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/25968780@N03/5151245075/in/pool-1298721@N24/" %}
+{% include heatsynclabs/caption %}
 
 As many of you know, over the past year we, as a group have grown not only in activity or notoriety, but also in size.  With no small help from Gangplank, we have been able to collect both equipment and a community, both of which are becoming too large for our nest in Chandler.  In addition, our massive laser cutter has some special needs that involve it having its own ventilation system.  We need to find our kitten laser a home!
 

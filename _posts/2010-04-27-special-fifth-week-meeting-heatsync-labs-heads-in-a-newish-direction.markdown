@@ -10,7 +10,11 @@ categories:
 - News
 ---
 
-[caption id="attachment_615" align="aligncenter" width="500" caption="Photo by Inky Bob.  Distributed under a Creative Commons Attribution-Non-Commercial-No Derivative Works 2.0 Generic License."][![Compass](http://www.heatsynclabs.org/wp-content/uploads/2010/04/122476158_36c4644a63.jpg)](http://www.flickr.com/photos/inkybob/122476158/)[/caption]
+{% include JB/setup %}
+{% assign caption_text = "Photo by Inky Bob.  Distributed under a Creative Commons Attribution-Non-Commercial-No Derivative Works 2.0 Generic License." %}
+{% assign caption_photo = "http://www.heatsynclabs.org/wp-content/uploads/2010/04/122476158_36c4644a63.jpg" %}
+{% assign caption_photo_url = "http://www.flickr.com/photos/inkybob/122476158/" %}
+{% include heatsynclabs/caption %}
 
 **Special 5th Week HSL Meeting (Thurs) 7:00 pm|az @ Gangplank - Commons Area**
 
