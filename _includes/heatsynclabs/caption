@@ -3,10 +3,11 @@ Usage:
 Set caption_photo to the URL of the image you want to include
 Set caption_text to the text you want to display under it
 -->{% endcomment %}
+
 {% if caption_photo != null %}
 <div class="caption">
 {% if caption_photo_url != null %}
-<a href="{{ caption_photo_url}}">
+<a href='{{ caption_photo_url }}'>
 {% endif %}
 <img src='{{ caption_photo }}' width="500px">
 {% if caption_photo_url != null %}
