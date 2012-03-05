@@ -5,6 +5,7 @@ slug: events
 status: publish
 title: Events
 wordpress_id: '260'
+group: header
 ---
 
 ## **HeatSync Labs is FREE and open to the public Mon-Fri from 7pm - 10pm.**

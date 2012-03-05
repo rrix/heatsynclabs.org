@@ -11,9 +11,13 @@
 </head>
 
 <div id="wrapper">
-  <a href="http://www.heatsynclabs.org"><h1 id="top"><span>HeatSync Labs</span></h1></a>
-  <div class="button"><a href="/archive.html">Archive</a></div>
-  <div class="button"><a href="/get-involved.html">Get Involved</a></div>
+  <a href="{{ BASE_PATH }}"><h1 id="top"><span>HeatSync Labs</span></h1></a>
+  {% for node in site.pages %}
+    {% if node.group == "header" %}
+      <div class="button"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></div>
+    {% endif %}
+  {% endfor %}
+  <br clear=all />
 
   <div id="content">
     {{ content }}

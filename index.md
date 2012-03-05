@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Hacker's Ramblings
+title: HeatSync Labs
+group: header
 ---
 {% include JB/setup %}
 
@@ -9,7 +10,7 @@ title: Hacker's Ramblings
 [{{post.title}}]({{ BASE_PATH }}{{ post.url }})
 ------------
 
-{{ post.date | date_to_string }} &raquo; [{{ post.title }}]("{{ BASE_PATH }}{{ post.url }}")
+&raquo; {{ post.date | date_to_string }} 
 
 {{ post.content }}
 

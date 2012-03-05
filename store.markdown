@@ -5,6 +5,7 @@ slug: store
 status: publish
 title: Store
 wordpress_id: '1140'
+group: header
 ---
 
 HeatSync offers these fine services and wares, for your educational and/or stylish benefit!

@@ -5,6 +5,7 @@ slug: about
 status: publish
 title: About
 wordpress_id: '2'
+group: header
 ---
 
 [caption id="attachment_963" align="aligncenter" width="500" caption="Photo by JohnKit. Distributed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License."][![](http://www.heatsynclabs.org/wp-content/uploads/2009/07/4953555284_bace335cf9.jpg)](http://www.heatsynclabs.org/wp-content/uploads/2009/07/4953555284_bace335cf9.jpg)[/caption]

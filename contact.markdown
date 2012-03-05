@@ -5,6 +5,7 @@ slug: contact
 status: publish
 title: Contact
 wordpress_id: '299'
+group: header
 ---
 
 **Community**

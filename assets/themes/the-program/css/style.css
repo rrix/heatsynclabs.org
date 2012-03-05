@@ -1491,29 +1491,41 @@ hr {
 }
 
 
-#wrapper { width: 811px; margin: 0 auto; }
-#top { background:url('http://www.heatsynclabs.org/wp-content/themes/lightword/images/header-image.png') no-repeat; height:116px; margin: 0 0 0 5px; }
+#wrapper { width: 811px; margin: 0 auto; padding-left: 10px; padding-right: 10px; }
+#top { background:url('http://localhost:4000/background.png') no-repeat; height:116px; margin: 0 0 0 5px; }
 #top span { display: none; }
 #content { background-color: #fff; padding: 1em; font-size: 1.2em; }
 #chatbox { position: absolute; top: 0px; right: 0px; }
-
-.caption {
-  background-color: #F3F3F3;
-  border: 1px solid #DDD;
-  padding: 4px;
-  margin: 0 0 0 30px;
-  width: 320px;
-  display: inline-block;
-}
 
 .footer {
   clear: both;
 }
 
 .caption {
+  align: center;
   width: 500px;
   border: 1px solid #DDD;
   text-align: center;
   background-color: #F3F3F3;
-  padding-top: 4px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+.button {
+    background-color: #e0e0e0;
+    border-style: solid;
+    border-width : 4px 4px 1px 1px;
+    border-color : #2d2c29 #000 #000 #2d2c29;
+    border-bottom-left-radius : 0px;
+    border-bottom-right-radius : 0px;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+    padding : 4px;
+    float: left;
+}
+
+a.button {
+    text-decoration : none;
+}
+

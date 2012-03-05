@@ -5,6 +5,7 @@ slug: get-involved
 status: publish
 title: Get Involved
 wordpress_id: '2429'
+group: header
 ---
 
 **Come to the lab:**
